@@ -1,38 +1,36 @@
 /* Selecting font from google font */
 .open-sans-inter-font {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 .open-sans-merriweather-font {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* universal section */
-*{
+* {
     margin: 0;
 }
 
 /* Header Section */
-.header{
-
-}
+.header {}
 
 /* banner section */
-.banner-section{
+.banner-section {
     /* This makes the whole section blur */
     /* background-image: url('../images/Banner\ Image.png');
     filter: brightness(60%) contrast(110%); */
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
-    background: linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.37)),
-              url('../images/Banner\ Image.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.37)),
+        url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
     color: white;
     height: 600px;
@@ -42,13 +40,13 @@
     border-radius: 16px;
 }
 
-.happy{
+.happy {
     font-size: 32px;
     font-weight: 400;
     padding: 205px 530px 0 530px;
 }
 
-.new-year{
+.new-year {
     font-size: 72px;
     font-weight: bolder;
     color: #FFFFFF;
@@ -57,37 +55,41 @@
 }
 
 /* DISCOUNT SECTION */
-.discount-section{
+.discount-section {
     max-height: 806px;
     max-width: 803PX;
     margin: 120px auto;
     background-color: aqua;
 }
-.discount-description{
+
+.discount-description {
     padding: 40px;
 }
 
-.discount-title{
+.discount-title {
     font-size: 88px;
     font-weight: bold;
 }
-.desc-1{
+
+.desc-1 {
     font-size: 24px;
     font-weight: 500;
 }
-.desc-2{
+
+.desc-2 {
     font-size: 48px;
     font-weight: bold;
 }
-.discount-section img{
+
+.discount-section img {
     height: 651px;
     width: 803px;
 }
 
 /* MIDNIGHT SECTION STYLES */
-.midnight-section{
+.midnight-section {
     /* background-image: url('../images/Vectorrr.png'); */
-    background: linear-gradient(to left,rgba(0, 0, 0, 0.144),rgb(0, 0, 0)),url('../images/Vectorrr.png');
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.144), rgb(0, 0, 0)), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     margin: 400px auto 0px auto;
@@ -95,16 +97,25 @@
     width: 1320px;
     border: 2px solid none;
     border-radius: 20px;
+    /* background-image: url('../images/Group\ 70.png');
+    background-position: right top; */
 }
 
-.midnight-section-title{
+/* .midnight-section img{
+    height: 465px;
+    width: 320px;
+    /* margin: 0px 8px 0px 2px; 
+} */
+
+.midnight-section-title {
     font-size: 64px;
     font-weight: 600;
     height: 176px;
     width: 642px;
     padding: 126px 552px 0px 126px;
 }
-.midnight-section-description{
+
+.midnight-section-description {
     font-size: 18px;
     font-weight: 400;
     height: 60px;
@@ -114,46 +125,134 @@
 
 /* event section */
 
-.event-section{
+.event-section {
     height: 482px;
     width: 1320px;
-    background: linear-gradient(rgba(255, 0, 0, 0.151),rgba(0, 0, 0, 0));
+    background: linear-gradient(rgba(255, 0, 0, 0.151), rgba(0, 0, 0, 0));
     margin: 200px auto 0px auto;
 
 }
-.event{
+
+.event {
     padding: 100px 386px 214px 386px;
 }
 
-.event-description{
+.event-description {
     font-size: 32px;
     font-weight: 600;
 }
-/* Shared style */
 
-.text-align{
+/* COMING SOON STYLES */
+.comingsoon-section {
+    /* background-image: url('../images/Ellipse\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-height: 463px;
+    width: 1320px;
+    /* background-color: #FF0000; */
+    padding: 231px 0px;
+
+}
+/* do this again */
+.circle {
+    width: 463px;
+    height: 463px;
+    border: 12px solid red;
+    /* red circular border */
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NBF-modify {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.CS-modify {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.des-modify {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.column-2-div2 {
+    margin-top: 50px;
+    height: 140px;
+    width: 140px;
+
+}
+
+/* holiday section */
+.holiday{
+    background-image: url('../images/Rectangle\ 2.png'),url('../images/Group\ 44.png');
+    background-repeat: no-repeat;
+    background-position: bottom,right center;
+    border: 5px solid white;
+    border-radius: 2px;
+    height: 986px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.holiday-desc{
+    height: 260px;
+    width: 1060px;
+    margin: 0 126px 50px 126px;
+}
+.mod1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.mod2{
+    font-size: 72px;
+    font-weight: bold;
+}
+.mod3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.holiday-bg-image{
+    height: 578px;
+    width: 674px;
+    background: none;
+}
+/* Shared style */
+.text-align {
     text-align: center;
 }
-.color1{
+
+.color1 {
     color: #FF0000;
 }
-.color2{
+
+.color2 {
     color: #070211;
 }
-.color3{
+
+.color3 {
     color: #FFFFFF;
 }
 
 /* All Button */
-.join-now{
+.join-now {
     /* height: 24px;
     width: auto; */
     background: none;
     border: none;
     font-size: 20px;
     font-weight: bold;
-   margin: 0px 497px 0px 158px;
+    margin: 0px 497px 0px 158px;
 }
-button:hover{
+
+button:hover {
     cursor: pointer;
 }
