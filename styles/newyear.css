@@ -225,6 +225,40 @@
     width: 674px;
     background: none;
 }
+
+/* portfolio section styles */
+.portfolio-section{
+    margin: 200px auto;
+    height: 1163px;
+    width: 1320px;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+.portfolio-images-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-images-section img{
+    height: 450px;
+    width: 424px;
+    border: 5px solid white;
+    border-radius: 16px;
+}
+.text-mod1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.text-mod2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text-mod3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 /* Shared style */
 .text-align {
     text-align: center;
