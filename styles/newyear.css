@@ -1,0 +1,63 @@
+/* Selecting font from google font */
+.open-sans-inter-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-merriweather-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* universal section */
+*{
+    margin: 0;
+}
+
+/* Header Section */
+.header{
+
+}
+
+/* banner section */
+.banner-section{
+    /* This makes the whole section blur */
+    /* background-image: url('../images/Banner\ Image.png');
+    filter: brightness(60%) contrast(110%); */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+    background: linear-gradient(rgba(0, 0, 0, 0.39),rgba(0, 0, 0, 0.37)),
+              url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    color: white;
+    height: 600px;
+    width: 1320px;
+    margin: 50px auto;
+    border: 2px solid none;
+    border-radius: 16px;
+}
+
+.happy{
+    font-size: 32px;
+    font-weight: 400;
+    padding: 205px 530px 0 530px;
+}
+
+.new-year{
+    font-size: 72px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding: 25px 344px 177px 344px;
+    /* padding-bottom: 177px; */
+}
+
+/* Shared style */
+
+.text-align{
+    text-align: center;
+}
