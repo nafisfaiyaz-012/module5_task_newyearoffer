@@ -84,6 +84,34 @@
     width: 803px;
 }
 
+/* MIDNIGHT SECTION STYLES */
+.midnight-section{
+    /* background-image: url('../images/Vectorrr.png'); */
+    background: linear-gradient(to left,rgba(0, 0, 0, 0.144),rgb(0, 0, 0)),url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 400px auto;
+    height: 600px;
+    width: 1320px;
+    border: 2px solid none;
+    border-radius: 20px;
+}
+
+.midnight-section-title{
+    font-size: 64px;
+    font-weight: 600;
+    height: 176px;
+    width: 642px;
+    padding: 126px 552px 24px 126px;
+}
+.midnight-section-description{
+    font-size: 18px;
+    font-weight: 400;
+    height: 60px;
+    width: 697px;
+    padding: 0px 497px 48px 126px;
+}
+
 /* Shared style */
 
 .text-align{
@@ -94,4 +122,21 @@
 }
 .color2{
     color: #070211;
+}
+.color3{
+    color: #FFFFFF;
+}
+
+/* All Button */
+.join-now{
+    /* height: 24px;
+    width: auto; */
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+   margin: 0px 497px 48px 158px;
+}
+button:hover{
+    cursor: pointer;
 }
