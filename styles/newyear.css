@@ -56,8 +56,42 @@
     /* padding-bottom: 177px; */
 }
 
+/* DISCOUNT SECTION */
+.discount-section{
+    max-height: 806px;
+    max-width: 803PX;
+    margin: 120px auto;
+    background-color: aqua;
+}
+.discount-description{
+    padding: 40px;
+}
+
+.discount-title{
+    font-size: 88px;
+    font-weight: bold;
+}
+.desc-1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.desc-2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.discount-section img{
+    height: 651px;
+    width: 803px;
+}
+
 /* Shared style */
 
 .text-align{
     text-align: center;
+}
+.color1{
+    color: #FF0000;
+}
+.color2{
+    color: #070211;
 }
