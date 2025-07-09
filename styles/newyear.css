@@ -90,7 +90,7 @@
     background: linear-gradient(to left,rgba(0, 0, 0, 0.144),rgb(0, 0, 0)),url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
-    margin: 400px auto;
+    margin: 400px auto 0px auto;
     height: 600px;
     width: 1320px;
     border: 2px solid none;
@@ -102,16 +102,33 @@
     font-weight: 600;
     height: 176px;
     width: 642px;
-    padding: 126px 552px 24px 126px;
+    padding: 126px 552px 0px 126px;
 }
 .midnight-section-description{
     font-size: 18px;
     font-weight: 400;
     height: 60px;
     width: 697px;
-    padding: 0px 497px 48px 126px;
+    padding: 0px 497px 0px 126px;
 }
 
+/* event section */
+
+.event-section{
+    height: 482px;
+    width: 1320px;
+    background: linear-gradient(rgba(255, 0, 0, 0.151),rgba(0, 0, 0, 0));
+    margin: 200px auto 0px auto;
+
+}
+.event{
+    padding: 100px 386px 214px 386px;
+}
+
+.event-description{
+    font-size: 32px;
+    font-weight: 600;
+}
 /* Shared style */
 
 .text-align{
@@ -135,7 +152,7 @@
     border: none;
     font-size: 20px;
     font-weight: bold;
-   margin: 0px 497px 48px 158px;
+   margin: 0px 497px 0px 158px;
 }
 button:hover{
     cursor: pointer;
