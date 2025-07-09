@@ -150,13 +150,14 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     max-height: 463px;
     width: 1320px;
     /* background-color: #FF0000; */
     padding: 231px 0px;
 
 }
+
 /* do this again */
 .circle {
     width: 463px;
@@ -193,72 +194,163 @@
 }
 
 /* holiday section */
-.holiday{
-    background-image: url('../images/Rectangle\ 2.png'),url('../images/Group\ 44.png');
+.holiday {
+    background-image: url('../images/Rectangle\ 2.png'), url('../images/Group\ 44.png');
     background-repeat: no-repeat;
-    background-position: bottom,right center;
+    background-position: bottom, right center;
     border: 5px solid white;
     border-radius: 2px;
     height: 986px;
     width: 1320px;
     margin: 0 auto;
 }
-.holiday-desc{
+
+.holiday-desc {
     height: 260px;
     width: 1060px;
     margin: 0 126px 50px 126px;
 }
-.mod1{
+
+.mod1 {
     font-size: 24px;
     font-weight: 500;
 }
-.mod2{
+
+.mod2 {
     font-size: 72px;
     font-weight: bold;
 }
-.mod3{
+
+.mod3 {
     font-size: 20px;
     font-weight: 500;
 }
-.holiday-bg-image{
+
+.holiday-bg-image {
     height: 578px;
     width: 674px;
     background: none;
 }
 
 /* portfolio section styles */
-.portfolio-section{
+.portfolio-section {
     margin: 200px auto;
     height: 1163px;
     width: 1320px;
     border: 2px solid white;
     border-radius: 16px;
 }
-.portfolio-images-section{
+
+.portfolio-images-section {
     display: flex;
     flex-wrap: wrap;
 }
-.portfolio-images-section img{
+
+.portfolio-images-section img {
     height: 450px;
     width: 424px;
     border: 5px solid white;
     border-radius: 16px;
 }
-.text-mod1{
+
+.text-mod1 {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.text-mod2{
+
+.text-mod2 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.text-mod3{
+
+.text-mod3 {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 20px;
 }
+
+/* newsletter section */
+.newsletter-section {
+    height: 616px;
+    width: 1320px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 0 auto;
+}
+
+.newsletter-section img {
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+.subscribe-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.button-style {
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    height: 72px;
+    width: 210px;
+}
+
+.input-email-div {
+    height: 72px;
+    width: 648px;
+
+    border-radius: 50px 0 0 50px;
+    border: none;
+    text-align: justify;
+    padding-left: 25px;
+}
+
+.footer-section {
+    margin: 200px auto;
+    height: 609px;
+    width: 1600px;
+    background-color: #000000;
+    /* margin-top: 200px; */
+}
+
+/* row1 row2 row3 i have used all these in the different class no meaningful name used so you can be confused .. do not confuse... do this part again */
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    /* max-width: 1185px; */
+    max-height: 80px;
+    /* border: 5px solid white; */
+    /* margin-top: 120px; */
+
+}
+
+.row2 {
+    margin-top: 120px;
+}
+
+.row3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.margin-180 {
+    margin-top: 180px;
+}
+
 /* Shared style */
 .text-align {
     text-align: center;
